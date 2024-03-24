@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Michroma&display=swap');
+
+body {
+    font-family: Michroma, serif;
+    background: linear-gradient(90deg, #1100ff 0%, #ffffff 100%);
+}
+
+p {
+    color: #ffffff;
+}
+
+.nav-link {
+    color: aquamarine;
+
+}
+
+.navbar-nav .nav-link.active {
+    color:  rgb(183, 181, 181)
+}
+
+.navbar-brand img {
+    width: 40px;
+}
+
+.navbar-toggler {
+    background-color: rgb(183, 181, 181);
+
+}
+
+.sidebar {
+    background: linear-gradient(250deg, #1100ff 0%, #ffffff 100%);
+}
+
+.card {
+    background: linear-gradient(250deg, #1100ff 0%, #ffffff 100%);
+}
+
+.card a {
+    text-decoration: none;
+}
+
+.slide-text,
+.footer-text {
+    color: #ffffff;
+    margin: auto auto;
+}
+.fytr,
+.btn-outline-primary {
+    background: linear-gradient(90deg, #1100ff 0%, #ffc6c6 100%);
+    color:#ffffff
+}
+
+.call-anim {
+    animation: call 2s ease 0s 100 normal forwards;
+}
+
+@keyframes call {
+	0% {
+		transform: scale(1);
+	}
+
+	50% {
+		transform: scale(1.1);
+	}
+
+	100% {
+		transform: scale(1);
+	}
+}
+
+
+@media (max-width: 755px) {
+    .carousel-indicators {
+        display: none;
+    }
+}
+
+.media-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
